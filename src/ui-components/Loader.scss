@@ -1,0 +1,13 @@
+.Loader {
+  height: 3rem;
+  width: 3rem;
+  animation: squareRotate 1500ms infinite;
+}
+
+@keyframes squareRotate {
+  50% {
+    background: rgb(199, 52, 204);
+    transform: rotate(360deg);
+    border-radius: 50%;
+  }
+}
